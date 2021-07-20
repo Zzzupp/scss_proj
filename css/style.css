@@ -1,0 +1,915 @@
+main .secound-page .btmsp a, main .third-page .thrdpgtxt .btmthrd a, main .last-page .btmlst a {
+  color: #458FF6;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: auto;
+  font-size: 18px;
+  padding: 19px 51px;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  max-width: 200px;
+  vertical-align: middle;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+header {
+  margin-bottom: 63px;
+  padding-top: 56px;
+}
+
+header .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .tlogo {
+  margin-right: 440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .tlogo h1 {
+  color: white;
+  font-weight: 700;
+  line-height: auto;
+  font-size: 26px;
+  background-color: #458FF6;
+  padding: 5px 11px 4px 13px;
+  border-radius: 41px;
+}
+
+header .tlogo h2 {
+  font-weight: 700;
+  line-height: auto;
+  font-size: 24px;
+  margin-left: 12px;
+}
+
+header li {
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+header li a {
+  font-weight: 400;
+  line-height: auto;
+  font-size: 18px;
+  color: #1F1534;
+  text-decoration: none;
+  opacity: 50%;
+}
+
+header .first {
+  margin-left: 0px;
+}
+
+header .first a {
+  font-weight: 700;
+  opacity: 100%;
+}
+
+main .first-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 190px;
+}
+
+main .first-page .dot-fpp img {
+  position: absolute;
+  left: -430px;
+  top: 1px;
+}
+
+main .first-page img {
+  max-height: 598px;
+  max-width: 693px;
+}
+
+main .first-page .text-vst h1 {
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 48px;
+}
+
+main .first-page .text-vst p {
+  color: #7D7987;
+  margin: 35px 0;
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 21px;
+}
+
+main .first-page .text-fp {
+  max-width: 445px;
+  margin-right: 109px;
+  white-space: nowrap;
+}
+
+main .first-page .button a {
+  text-decoration: none;
+}
+
+main .first-page .button p {
+  max-width: 200px;
+  max-height: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 18px;
+  color: white;
+  padding: 0 40px;
+  background-color: #458FF6;
+  border-radius: 55px;
+}
+
+main .secound-page {
+  margin-bottom: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .secound-page .text-sp {
+  text-align: center;
+}
+
+main .secound-page .text-sp h1 {
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 36px;
+  margin-bottom: 61px;
+  position: relative;
+}
+
+main .secound-page .text-sp h1:after {
+  content: " ";
+  display: block;
+  border-radius: 5px;
+  background-color: black;
+  width: 56px;
+  height: 2px;
+  position: absolute;
+  left: 48%;
+  top: 80px;
+}
+
+main .secound-page .text-sp p {
+  color: #7D7987;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+main .secound-page .cards-fp {
+  position: relative;
+}
+
+main .secound-page .cards-fp .bg {
+  position: absolute;
+  left: -406px;
+  top: -259px;
+  z-index: -1;
+  opacity: 100%;
+  opacity: 60%;
+}
+
+main .secound-page .cards-fp .bg2 {
+  opacity: 60%;
+  position: absolute;
+  right: -50px;
+  top: 287px;
+  z-index: -1;
+}
+
+main .secound-page .cards-fp .card-fp {
+  -webkit-box-shadow: 0 0 100px #f3f3f3;
+          box-shadow: 0 0 100px #f3f3f3;
+  z-index: 2;
+  display: inline-block;
+  width: 350px;
+  max-width: 350px;
+  height: 354px;
+  max-height: 354px;
+  margin-right: 30px;
+  padding: 54px 0 46px 37px;
+  background-color: white;
+  margin-bottom: 37px;
+  border-radius: 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+main .secound-page .cards-fp .card-fp h2 {
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 24px;
+  color: black;
+}
+
+main .secound-page .cards-fp .card-fp p {
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 16px;
+  color: #7D7987;
+}
+
+main .secound-page .nospace {
+  margin-right: 0 !important;
+}
+
+main .secound-page .btmsp {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main .third-page {
+  margin-bottom: 229px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .third-page .thrdpgimg {
+  margin-right: 137px;
+}
+
+main .third-page .thrdpgtxt {
+  white-space: nowrap;
+}
+
+main .third-page .thrdpgtxt h2 {
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 36px;
+  margin-bottom: 28px;
+  position: relative;
+  color: #000000;
+}
+
+main .third-page .thrdpgtxt h2::after {
+  content: " ";
+  background-color: #000000;
+  width: 56px;
+  height: 2px;
+  display: block;
+  margin-top: 26px;
+}
+
+main .third-page .thrdpgtxt p {
+  max-width: 450px;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 18px;
+  color: #7D7987;
+}
+
+main .third-page .thrdpgtxt .btmthrd {
+  margin-top: 52px;
+}
+
+main .forth-page {
+  margin-bottom: 251px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .forth-page h2 {
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+main .forth-page h2::after {
+  content: " ";
+  background-color: #000000;
+  width: 56px;
+  height: 2px;
+  display: block;
+  margin-top: 26px;
+}
+
+main .forth-page p {
+  margin-right: 71px;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 18px;
+  color: #7D7987;
+  margin-bottom: 40px;
+}
+
+main .forth-page .gpbtm img {
+  margin-left: 15px;
+  padding: 0 25.5px;
+}
+
+main .forth-page .gpbtm a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #458FF6;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: auto;
+  font-size: 18px;
+  padding: 19px 25.5px;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  max-width: 200px;
+  vertical-align: middle;
+  padding-right: 68px;
+}
+
+main .fiveth-page .boxfp {
+  background: linear-gradient(70deg, #5B9DF2, #5A98F2, 70%, #67C3F3);
+  text-align: center;
+  padding: 0 170px 89px;
+  max-width: 1167.58px;
+  width: 1167.58px;
+  border-radius: 24px;
+  position: relative;
+}
+
+main .fiveth-page .boxfp h1 {
+  color: white;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 36px;
+  padding-top: 64px;
+  margin-bottom: 68px;
+}
+
+main .fiveth-page .boxfp h1::after {
+  content: " ";
+  background-color: white;
+  display: block;
+  width: 56px;
+  height: 2px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+main .fiveth-page .boxfp .flex-wrapperfp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .fiveth-page .boxfp .anket {
+  max-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .fiveth-page .boxfp .anket img {
+  margin-right: 29px;
+}
+
+main .fiveth-page .boxfp .citata {
+  max-width: 50%;
+  text-align: left;
+}
+
+main .fiveth-page .boxfp .citata p {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+main .fiveth-page .boxfp .fvtxt {
+  text-align: left;
+}
+
+main .fiveth-page .boxfp .fvtxt h2 {
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+main .fiveth-page .boxfp .fvtxt p {
+  font-weight: 400;
+  line-height: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+main .fiveth-page .boxfp .bg3 {
+  position: absolute;
+  left: -45px;
+  bottom: 39px;
+  z-index: -1;
+}
+
+main .fiveth-page .boxfp .bg4 {
+  position: absolute;
+  right: -45px;
+  top: -20px;
+}
+
+main .fiveth-page .counterfp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 216px;
+}
+
+main .fiveth-page .counterfp .dot {
+  margin: 47px 90px;
+}
+
+main .last-page {
+  position: relative;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+main .last-page h1 {
+  margin-bottom: 81px;
+  font-weight: 700;
+  line-height: 56px;
+  font-size: 36px;
+}
+
+main .last-page h1::after {
+  content: " ";
+  width: 56px;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 26px;
+}
+
+main .last-page .cardslp {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .last-page .cardslp h2 {
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 21px;
+  padding: 24px 24px 12px 12px;
+}
+
+main .last-page .cardslp p {
+  color: #7D7987;
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 16px;
+  margin: 0 24px 0 12px;
+  margin-bottom: 25px;
+}
+
+main .last-page .cardslp a {
+  padding-left: 12px;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+main .last-page .cardslp a p {
+  color: #458FF6;
+  text-decoration: none;
+  margin: 0;
+  margin-right: 13px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+main .last-page .cardslp .textlp {
+  max-width: 246;
+  margin: auto;
+  text-align: left;
+}
+
+main .last-page .cardslp .cardlp {
+  margin-right: 34px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 100px #f3f3f3;
+          box-shadow: 0 0 100px #f3f3f3;
+  height: 512px;
+  max-height: 512px;
+}
+
+main .last-page .cardslp .avs {
+  position: absolute;
+  z-index: -1;
+  right: -25%;
+  top: -170px;
+}
+
+main .last-page .cardslp .avs2 {
+  position: absolute;
+  z-index: -1;
+  left: -6%;
+  top: -45px;
+}
+
+main .last-page .btmlst {
+  margin-top: 40px;
+  z-index: 20;
+  margin-bottom: 130px;
+}
+
+main .last-page .avs3 {
+  position: absolute;
+  bottom: -250px;
+  right: -120px;
+  z-index: -1;
+}
+
+footer {
+  height: 100%;
+  position: relative;
+  background: linear-gradient(70deg, #67C3F3, #5A98F2);
+  padding: 100px 0 100px 0;
+}
+
+footer .logofot {
+  max-width: 391px;
+}
+
+footer p {
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 18px;
+  color: white;
+  margin: 17px 0 31px;
+}
+
+footer span {
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+footer .flex-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+}
+
+footer li {
+  list-style-type: none;
+  font-weight: 300;
+  line-height: 38px;
+  font-size: 18px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer h2 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 20px;
+  color: white;
+}
+
+footer .kkk {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
+
+
+@media (max-width: 1600px){
+
+  main .last-page .cardslp .avs{
+    right: 10%
+    
+  }
+  main .last-page .avs3{
+    right:10%;
+  }
+}
+
+
+@media (max-width: 1365px){
+  .first-page{
+    flex-direction: column;
+  }
+  .text-fp{
+    order: 2;
+  }
+  .picfp{
+    order: 1;
+  }
+  main .first-page .text-fp{
+    margin-right: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .text-vst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .fiveth-page .boxfp .bg4{
+    right: 10%
+  }
+  main .third-page{
+    flex-direction: column;
+  }
+  .thrdpgtxt{
+    text-align: center;
+  }
+  main .third-page .thrdpgtxt h2::after{
+    margin: auto;
+    width: 40%;
+    margin-top: 20px;
+  }
+  main .third-page .thrdpgimg{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .flex-wrapperfp{
+    flex-direction: column;
+    align-items: center;
+  }
+  main .fiveth-page .boxfp .citata{
+    text-align: center;
+  }
+  main .fiveth-page .boxfp{
+    padding: 0;
+    padding-bottom: 20px;
+    width: 100%
+  }
+  main .last-page .cardslp{
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .avs2{
+    display: none;
+  }
+  .forth-page{
+    flex-direction: column;
+  }
+  .fptext{
+    order: 2;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .forth-page p{
+    margin-right: 0;
+  }
+  main .forth-page h2::after{
+    margin: auto;
+    margin-top: 20px;
+  }
+  .gpbtm{
+    text-align: center;
+  }
+  main .secound-page .cards-fp .bg2{
+    display: none;
+  }
+  .flex-wrapper{
+    flex-direction: column;
+  }
+  header .tlogo{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+}
+
+@media (max-width: 1119px){
+  main .secound-page .nospace{
+    margin-right: 30px!important;
+  }
+  .cards-fp{
+    text-align: center;
+  }
+}
+@media (max-width: 741px){
+  .flexdowm ul{
+    display: none;
+  }
+  footer .flex-wrp{
+    flex-direction: column;
+    align-items: center;
+  }
+  footer{
+    text-align: center;
+  }
+  .picfp img {
+    width: 80%;
+    display: inline-block;
+  }
+  .first-page{
+    text-align: center;
+  }
+  .thrdpgimg img{
+    width: 80%;
+  }
+  .third-page{
+    text-align: center;
+  }
+  .forth-page img {
+    width: 80%;
+  }
+  .forth-page{
+    text-align: center;
+  }
+  .text-sp{
+    max-width: 60%;
+  }
+  .bg{
+    display: none;
+  }
+  main .third-page .thrdpgtxt p{
+    max-width: 40%;
+    font-size: 15px;
+  }
+  header ul{
+    display: none;
+  }
+  main .first-page .text-vst h1{
+    font-size: 30px;
+    line-height: 25px;
+  }
+  main .first-page .text-vst p{
+    font-size: 15px;
+  }
+  .anket{
+    flex-direction: column;
+  }
+  main .fiveth-page .boxfp .anket img{
+    margin-right: 0;
+  }
+  .fvtxt{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  main .fiveth-page .boxfp .fvtxt p::after{
+    content: " ";
+    background-color: rgb(255, 255, 255);
+    width:56px;
+    height: 2px;
+    display:block;
+    margin: auto;
+    margin-top:20px;
+  }
+  main .fiveth-page .boxfp .fvtxt{
+    text-align: center;
+  }
+}
+@media (max-width: 400px){
+  main .forth-page p{
+    font-size: 12px;
+
+  }
+  main .third-page .thrdpgtxt h2{
+    font-size:30px;
+  }
+  .cardlp img{
+    width: 100%;
+  }
+  main .last-page .cardslp a img{
+    width: 5%;
+  }
+  .cardlp{
+    margin-bottom: 20px;
+  }
+  main .third-page .thrdpgtxt p{
+    display: none;
+  }
+  main .secound-page .cards-fp .card-fp p{
+    font-size: 100%;
+    max-width: 80%;
+    white-space: none;
+  }
+  main .secound-page .cards-fp .card-fp{
+    width: 80%
+  }
+  .last-page{
+    text-align: center;
+  }
+  main .secound-page .text-sp h1:after{
+    display: none;
+  }
+  .avs3{
+    display: none;
+  }
+}
